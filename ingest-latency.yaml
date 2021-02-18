@@ -308,7 +308,7 @@
     - displayName: laggy
       op: lt
       tag: default.api-request-san-francisco.200d000000
-      target: 0.99
+      target: 0.999
       value: 200
     service: zcoopernewrelic
     timeWindows:
