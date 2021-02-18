@@ -136,6 +136,11 @@
       tag: default.intake-latency.0d500000
       target: 0.99
       value: 0.5
+    - displayName: Slower
+      op: lt
+      tag: default.intake-latency.0d500000
+      target: 0.999
+      value: 0.8  
     service: nobl9-intake
     timeWindows:
     - count: 1
