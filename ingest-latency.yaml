@@ -23,7 +23,7 @@
             promql: password_reset_initiate{code="ALL",service="pwr"}
       displayName: Working
       tag: default.password-reset-success-rate.1d000000
-      target: 0.88
+      target: 0.8
       value: 1
     service: journey-password-reset
     timeWindows:
