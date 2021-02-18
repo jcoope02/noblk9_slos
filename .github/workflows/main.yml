@@ -5,7 +5,8 @@ name: Update Nobl9 SLOS
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  pull_request:
+  pull_request_review:
+    types: [submitted]
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
